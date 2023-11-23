@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;500;700&display=swap');
+@import url(./header.css);
+@import url(./banner.css);
+@import url(./rodape.css);
+@import url(./topicos.css);
+@import url(./contato.css);
+@import url(./carrosel.css);
+@import url(./cartao-apple.css);
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --cor-de-fundo: #fbfbfd;
+    --cor-de-bloco: #fff;
+    --texto-preto: #000;
+    --texto-destaque: #e30000;
+    --texto-destaque-secundario: #6e6e73;
+    --cor-link-hover: #c6c6c6;
+    --cor-bnt: #25be;
+    --texto-cinza: #3D3E3C;
+
+    --font-secundario: "Oswald";
+    --font-principal: "Poppins";
+}
+
+body {
+    background: var(--cor-de-fundo);
+    font-family: var(--font-principal);
+    font-size: 16px;
+    font-weight: 400;
+}
